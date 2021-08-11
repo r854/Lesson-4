@@ -6,16 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h2>@typography</h2>
-    <h1>This is H1 .</h1>
-    <h2>This is h2</h2>
-    <h3>This is h3</h3>
+    <style>
+        textarea{
+            width: 80%;
+            margin:2rem 2rem 0rem 2rem ;
+            height: 6rem;
+            
+            
+        }
+        button{
+            
+            margin:2rem 2rem;
+        }
 
-    <hr>
 
-    <h2>@Navbar</h2>
 
+    </style>
+      
+    <textarea id="input">Type something here</textarea>
+    <button id="btn-tanslate">Translate</button>
+    <textarea id="output">What you will type will be shown here in bengali</textarea>
+   
+    <script>       
+        var btnTranslate=document.querySelector('#btn-tanslate')
+        var input=document.querySelector("#input")
+        var output=document.querySelector("#output")
+        btnTranslate.addEventListener("click",function clickEventHandler(){
+            console.log(input.value);
+
+         });
+    </script>
 
 
 </body>
