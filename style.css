@@ -1,0 +1,25 @@
+   textarea{
+        width: 50%;
+        margin:2rem 2rem 0rem 2rem ;
+        height: 6rem;
+        display: block;
+            
+    }
+    button{  
+        margin:2rem 2rem;
+        background-color: rgb(202, 230, 243);
+        border-radius: 1rem;
+        padding: 0.5rem 0.5rem;
+    }
+    header{
+        padding: 2rem 2rem;
+        background-color: brown;
+        text-align: center;
+    }
+
+       
+
+
+
+
+

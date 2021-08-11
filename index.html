@@ -8,37 +8,11 @@
 </head>
 
 <body>
-    <style>
-        textarea{
-            width: 80%;
-            margin:2rem 2rem 0rem 2rem ;
-            height: 6rem;
-            
-            
-        }
-        button{
-            
-            margin:2rem 2rem;
-        }
-
-
-
-    </style>
-      
-    <textarea id="input">Type something here</textarea>
+    <link href="/style.css" rel="stylesheet">    
+           
+    <textarea id="input" placeholder="Type something here in English"></textarea>
     <button id="btn-tanslate">Translate</button>
-    <textarea id="output">What you will type will be shown here in bengali</textarea>
-   
-    <script>       
-        var btnTranslate=document.querySelector('#btn-tanslate')
-        var input=document.querySelector("#input")
-        var output=document.querySelector("#output")
-        btnTranslate.addEventListener("click",function clickEventHandler(){
-            console.log(input.value);
-
-         });
-    </script>
-
-
+    <textarea id="output" placeholder="What you will type will be shown here in bengali"></textarea>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
